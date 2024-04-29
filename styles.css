@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(211, 144, 227);
+    border-radius: 9px;
+    padding: 0 10px;
+    font-family: "Playfair Display", serif;
+    font-weight: 625px;
+}
+header .logo:hover {
+    color: white;
+    background-color: rgb(107, 7, 95);
+    transition: 1s;
+}
+header .navbar {
+    position: relative;
+    display: flex;
+}
+header .navbar li {
+    list-style: none;
+    margin-left: 35px;
+}
+header .navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 625px;
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+header .navbar li a:hover {
+    border-bottom: 8px solid rgb(5, 63, 80);
+    padding: 2px;
+}
+.contenido {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+}
+.contenido .tituloBox {
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+.contenido .tituloBox h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+}
+.contenido .tituloBox h2 span {
+    background: rgb(211, 144, 227);
+    color: black;
+    padding: 8px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600px;
+    border-radius: 15px;
+}
+.contenido .tituloBox p {
+    font-size: 1.2em;
+    line-height: 1.1;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: 250px;
+    margin-bottom: 25px;
+}
+.contenido .tituloBox a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: rgb(107, 7, 95);
+    padding: 10px 20px;
+    margin: left 30px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.contenido .tituloBox a:hover {
+color: black;
+background: rgb(211, 144, 227);
+transition: 0.5s;
+}
+.contenido .imgbox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -50px;
+    z-index: -5;
+}
+.contenido .imgbox img {
+    height: 90vh;
+}
+.contenido .imgbox img:hover {
+    height: 90vh;
+}
+.copyright {
+    position: absolute;
+    bottom: 0px;
+    left: 800px;
+    margin-bottom: 45px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright p {
+    color: black;
+    text-align: left;
+    margin-left: 100px;
+}
+.redessociales {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+.redessocialesli {
+    padding: 20px;
+}
+.redessociales li a {
+    color: black;
+    font-size: 2em;
+    transition: 0.5s;
+}
+.redessociales li:hover a {
+    color: rgb(211, 144, 227);
+}
+.circulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(5, 63, 80);
+    clip-path: circle(380px at left 800px);
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+.presentación {
+   text-align: center;
+   font-size: 25px;
+   color: black;
+}
+
+.botones {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(107, 7, 95);
+    color: white;
+    font-size: 16px;
+}
+.titulo {
+    color: rgb(5, 63, 80);
+    text-align: center;
+    margin-top: 50px;
+}
+.logo {
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(211, 144, 227);
+    border-radius: 9px;
+    padding: 0 10px;
+    font-family: "Playfair Display", serif;
+    font-weight: 625px;
+    color: white;
+    background-color: rgb(107, 7, 95);
+    transition: 1s;
+}
+.lista .h3 .li {
+    list-style: none;
+}
+.fotos {
+    width: 100%;
+    margin: 0 auto;
+}
+.container:after {
+    content: "";
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.container {
+    width: 90%;
+    margin: 0 9%;
+}
+.container div {
+    width: 28%;
+    height: auto;
+    display: inline;
+    float: left;
+    margin: 0% 0% 3% 0%;
+    padding: 0px;
+}
+.container div img {
+    width: 100%;
+    height: auto;
+    border: 5px solid rgb(107, 7, 95);
+}
+.container div span {
+    color: white;
+    text-align: center;
+    display: block;
+}
+.container div img~span {
+    width: 100%;
+    display: block;
+    opacity: 0;
+    margin: 0;
+    padding: 2px 5px;
+    background-color: rgb(211, 144, 227);
+    box-shadow: black;
+}
+/* Para hacer aparecer el texto*/
+.container div img:hover+span {
+    opacity: 1;
+}
+/*Para que la imagen se vaya al fondo*/
+.container:hover div {
+    opacity: 0.3;
+    transform: scale(0.7);
+    transition: 1.5s;
+}
+/*Para que la iamgen seleccionada se quede*/
+.container:hover div:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Para adaptar la web a las diferentes pantallas*/
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+@media only screen and (max-width: 576px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .imgbox {
+        width: 50%; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+}
